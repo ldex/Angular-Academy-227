@@ -1,27 +1,30 @@
-# DemoApp
+# Angular Academy Demo App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
+Demo Project coded during an <a href="https://angular.ac" target="_blank">Angular Academy Workshop</a> in 2021.
 
-## Development server
+[![Angular Academy](https://www.angularacademy.ca/images/classroom.jpg "Angular Academy")](https://www.angularacademy.ca)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Angular Academy is a world-class hands-on instructor-led Angular training provider.  
+We have a long history of <a href="https://www.angularacademy.ca/world-firsts" target="_blank">World Firsts</a>...
 
-## Code scaffolding
+Visit www.angularacademy.ca for our list of Angular related courses:
+* Angular Fundamentals
+* Advanced Angular
+* RxJS Workshop
+* Angular Architecture
+* Testing Angular
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Local installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+You need to restore the npm dependencies first:  
+Run `npm i`
 
-## Running unit tests
+### Run it locally
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng s -o` for a dev server.  
+The app is running on `http://localhost:4200/` and will automatically reload if you change any of the source files.
 
-## Running end-to-end tests
+## Try it live in Stackblitz without installation!
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<a href="https://stackblitz.com/github/ldex/Angular-Academy-227" target="_blank">Angular Demo App</a> 
