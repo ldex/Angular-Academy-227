@@ -16,10 +16,19 @@ export class ProductService {
     this.initProducts();
   }
 
+  deleteProduct(id: number): Observable<any> {
+    return this.http.delete(this.baseUrl + id);           
+  }
+
+  insertProduct(newProduct: Product): Observable<Product> {
+    return this.http.post<Product>(this.baseUrl, newProduct);
+  }
+
   initProducts() {
+    let url:string = this.baseUrl + `?$orderby=ModifiedDate%20desc`;
     this.products$ = this
                         .http
-                        .get<Product[]>(this.baseUrl)
+                        .get<Product[]>(url)
                         .pipe(
                           tap(console.table),
                           delay(1500),
